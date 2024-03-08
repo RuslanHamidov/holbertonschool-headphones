@@ -1,57 +1,148 @@
 <!DOCTYPE html>
 <html lang="eng">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="0-styles.css">
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <!--
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link rel="stylesheet" href="0-styles.css">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-    Section for header with logo and links
-    -->
+  <!-- Section for header with logo and links -->
+  <section class="main-header">
     <header> 
-          <div class="mainbanner">
-              <div class="navbar">
-                <img class="logo" src="images/logo.png" alt="logo">
-                <input type="checkbox" id="menu-toggle">
-                <label for="menu-toggle" class="menu-icon">&#9776;</label>
-                <nav class="nav-links">
-        
-                  <a href="">what we do</a>
-        
-                  <a href="">our results</a>
-        
-                  <a href="">contact us</a>
-                </nav>
-              </div>
+      <div class="mainbanner">
+        <div class="navbar">
+          <img class="logo" src="images/logo.png" alt="logo">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
+          <nav class="nav-links">
+            <a href="">what we do</a>
+            <a href="">our results</a>
+            <a href="">contact us</a>
+          </nav>
         </div>
+      </div>
     </header>
-
-      <main>
-        
-        <!--
-
-    Main section of page
-    -->
-    
-        <section>
-            <div class="banner">
-            <h1 class="bannerword">
-                Lorem ipsum dolor set amet lorem ipsum
-            </h1>
-            <h4>Lorem ipsum dolor set amet lorem ipsum dolor set</h4>
-            <button class="register">
-                CALL TO ACTION
-            </button>
-            <p class="bigtext">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
+    <main>
+      <!-- Main section of page -->
+      <section>
+        <div class="banner">
+          <h1 class="bannerword">
+            Lorem ipsum dolor set amet lorem ipsum
+          </h1>
+          <h4>Lorem ipsum dolor set amet lorem ipsum dolor set</h4>
+          <button class="call">
+            CALL TO ACTION
+          </button>
+          <p class="bigtext">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
         </div>
+      </section>
+    </section>
+    
+    <section>
+      <div class="lorem">
+        <h1>What we do...</h1>
+        <p class="loremtext">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <div class="skills">
+          <div>
+            <img src="images/sound-frecuency.png">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div>
+            <img src="images/video.png">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div>
+            <img src="images/music.png">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div>
+            <img src="images/hearing.png">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-results">
+      <div class="results">
+        <h1>Our results speak for themselves</h1>
+        <p class="loremtext">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <div class="polygons">
+          <div>
+            <img src="images/polygon.png">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div>
+            <img src="images/polygon.png">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div>
+            <img src="images/polygon.png">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div>
+            <img src="images/polygon.png">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+   <section class="contact-form">
+   <div class="reg-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="Email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message"></label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+    </form>
+    <button class="contact">
+      CALL TO ACTION
+    </button>
+    </div>
+  </section>
            
-    </main>
-  </body>
+  </main>
+
+  <footer>   
+    <div class="footercontent">
+      <div class="fcontent">
+        <img src="images/logo.png">
+        <div class="socialmedia">
+          <a><img src="images/facebook.png"></a>
+          <a><img src="images/twitter.png"></a>
+          <a><img src="images/instagram.png"></a>
+        </div>
+      </div>
+      <p style="color: #FFFFFF; opacity: 35%;">©headphones 2020</p>
+    </div>
+  </footer>
+
 </html>
