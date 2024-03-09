@@ -47,6 +47,7 @@ body {
   background-image: url(/images/headphones_hero_1.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  padding-bottom: 4rem;
 }
 
 .mainbanner {
@@ -129,6 +130,18 @@ body {
   display: flex;
   flex-direction: row;
   padding-top: 5rem;
+  align-items: baseline;
+  justify-content: center;
+  
+}
+
+.skills div {
+  width: 20%;
+}
+
+.skills p {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .skills h2 {
@@ -157,6 +170,31 @@ body {
   display: flex;
   flex-direction: row;
   padding-top: 5rem;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%; /* Adjust width as needed */
+  height: auto;
+}
+
+.container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Assuming white color for better visibility on dark background */
+}
+
+.container p {
+  position: absolute;
+  bottom: 20px; /* Adjust position as needed */
+  left: 50%;
+  transform: translateX(-50%); /* Center the text */
+  color: white; /* Assuming white color for better visibility on dark background */
 }
 
 .reg-form {
