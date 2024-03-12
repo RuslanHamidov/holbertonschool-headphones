@@ -52,6 +52,7 @@
   .mainbanner{
     margin: auto;
     max-width: 70%;
+    padding: 1.5rem;
   }
 
   .mainlinks{
